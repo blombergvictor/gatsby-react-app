@@ -3,10 +3,17 @@ import Link from 'gatsby-link'
 
 const IndexPage = () => (
   <div>
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <Link to="/page-2/">Go to page 2</Link>
+    <div className="Hero">
+      <div className="HeroGroup">
+        <h1>Learn to <br/> Design & Code <br/> react apps</h1>
+        <p>
+          Lorem Ipsum  är en utfyllnadstext från tryck - och förlagsindustrin.Lorem ipsum har varit standard ända sedan 1500 - talet, när en okänd boksättare
+        </p>
+        <Link>
+          Watch the video
+        </Link>
+      </div>
+    </div>
   </div>
 )
 
